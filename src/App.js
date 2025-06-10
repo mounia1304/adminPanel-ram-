@@ -5,6 +5,7 @@ import { AuthProvider } from "./context/AuthContext";
 import PendingObjectsPage from "./pages/pendingObjectsPage";
 import NonDepositedObjectsPage from "./pages/nonDepositedObjectsPage";
 import ArchiveObjectsPage from "./pages/archiveObjectsPage";
+import LoginAdmin from "./pages/LoginAdmin";
 
 function App() {
   return (
