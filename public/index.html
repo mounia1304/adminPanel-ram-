@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Royal Air Maroc - Panel Admin</title>
+  <link rel="shortcut icon" href="../src/images/logoRam.png" type="image\png"> 
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'ram-red': {
+              600: '#C20831',
+              700: '#A90044'
+            },
+            'ram-gold': {
+              600: '#B49360'
+            },
+            'ram-secondary': {
+              600: '#A90044'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <style>
+    .gradient-ram {
+      background: linear-gradient(135deg, #C20831 0%, #B49360 100%) !important;
+    }
+    .text-gradient-ram {
+      background: linear-gradient(135deg, #C20831 0%, #B49360 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
